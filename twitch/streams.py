@@ -1,5 +1,4 @@
-from .models.pagination import Pagination
-from .models.streams import Stream
+from .models import Pagination, Stream
 
 
 class Streams:
