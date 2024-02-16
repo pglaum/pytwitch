@@ -11,8 +11,8 @@ def read(fname):
 
 
 setup(
-    name="twitch_helix",
-    version="0.1.13",
+    name="twitch",
+    version="0.0.1",
     author="Philipp Glaum",
     author_email="p@pglaum.de",
     description=("A library for the Twitch Helix API"),
