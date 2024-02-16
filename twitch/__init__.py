@@ -1,4 +1,4 @@
-from twitch.streams import Streams
+from .streams import Streams
 import requests
 
 
