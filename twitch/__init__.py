@@ -28,6 +28,8 @@ class Twitch:
 
         if res.status_code == 401:
             if not try_again:
+                if self.__debugging:
+                    print("Unauthorized, trying to get a new access token")
                 self.get_access_token()
                 return self.get(route, params, try_again=True)
 
