@@ -38,6 +38,8 @@ class Twitch:
         return res.json()
 
     def get_access_token(self):
+        if self.__debugging:
+            print("Getting access token")
         url = "https://id.twitch.tv/oauth2/token"
         params = {
             "client_id": self.__client_id,
