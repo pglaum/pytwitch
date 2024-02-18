@@ -1,4 +1,5 @@
-from twitch.twitch_types import Pagination, Stream
+from twitch.models.pagination import Pagination
+from twitch.models.streams import Stream
 
 
 class Streams:
