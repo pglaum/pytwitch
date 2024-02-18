@@ -19,7 +19,7 @@ setup(
     license="GPLv3",
     keywords="api twitch",
     url="https://github.com/pglaum/pytwitch",
-    packages=["twitch"],
+    packages=["twitch", "twitch.models"],
     install_requires=["pydantic", "requests"],
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
